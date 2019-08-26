@@ -33,7 +33,7 @@ public class MainActivity extends BaseActivity {
         btnGo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                editText.setText("HI");
+                editText.setHeight(100);
             }
         });
     }
